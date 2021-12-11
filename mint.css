@@ -17,18 +17,18 @@ body {
 }
 
 .cardHeader h3 {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 	font-weight: 700;
 }
 
 .cardContent * {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 }
 
 /* User controls */
 
 .UserControlsView * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
 
 /* Mint Navigation */
@@ -38,7 +38,7 @@ body {
 }
 
 #mintNavigation * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
 
 #mintNavigation {
@@ -73,7 +73,7 @@ body {
 /* TransactionAccountsView */
 
 .TransactionAccountsView * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
 
 .TransactionAccountsView li li {
@@ -81,7 +81,7 @@ body {
 }
 
 .TransactionAccountsView li#localnav-acounts li a {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
     font-weight: 400 !important;
     font-size: 12px;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .TransactionAccountsView li#localnav-acounts li small {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
     font-weight: 500 !important;
     font-size: 13px;
     margin-top: 2px;
@@ -106,7 +106,7 @@ body {
 }
 
 .TransactionAccountsView li li:not(.selected):hover small {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 	color: #027c7b;
 }
 
@@ -120,31 +120,31 @@ body {
 
 /* TransactionPageView */
 .TransactionPageView .account-header {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 }
 
 .TransactionPageView * {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 }
 
 .TransactionPageView .money {
-    font-family: "SF Mono" !important;
+    font-family: "SF Mono", monospace !important;
     color: #ec3841;
 }
 
 /* AccountsView */
 
 .AccountsView h3 {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
     font-weight: 600;
 }
 
 .AccountsView * {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 }
 
 .AccountsView .balance {
-    font-family: "SF Mono" !important;
+    font-family: "SF Mono", monospace !important;
 }
 
 .AccountsView .account-header-wrapper .balance {
@@ -170,17 +170,17 @@ body {
 /* CreditReportPageView */
 .CreditReportPageView .credit-score-widget .wfont-medium,
 .CreditReportPageView .credit-score-widget .wfont-light {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
 
 .CreditReportPageView .credit-score-widget p {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 }
 
 /* transactions */
 
 #account-summary .money * {
-    font-family: "SF Mono" !important;
+    font-family: "SF Mono", monospace !important;
 }
 
 #transaction-list tr * {
@@ -203,12 +203,12 @@ tr.alt {
 #transaction-list td.date *,
 #transaction-list td.money,
 #transaction-list td.money * {
-    font-family: "SF Mono" !important;
+    font-family: "SF Mono", monospace !important;
 }
 
 #txnEdit *,
 #transaction-list * {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 }
 
 #transaction-list thead tr * {
@@ -229,12 +229,12 @@ tr#transaction-list-pending-ctrl th {
 /* FactorCard */
 
 .FactorCard {
-    font-family: "SF Pro Text" !important;
+    font-family: -apple-system, "SF Pro Text", sans-serif !important;
 	font-weight: 400 !important;
 }
 
 .FactorCard .FactorHeader * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 	font-weight: 600 !important;
 }
 
@@ -244,13 +244,13 @@ tr#transaction-list-pending-ctrl th {
 }
 
 .SettingsNavView * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
 
 .mainSettingsContent * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
 
 #widgetContainer * {
-    font-family: "SF Pro Display" !important;
+    font-family: -apple-system, "SF Pro Display", sans-serif !important;
 }
