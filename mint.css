@@ -1,0 +1,256 @@
+/*
+ * mint.css
+ * Copyright (C) 2021 Jim Zenn
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+	color: black;
+}
+
+.securityLinks,
+.copyright,
+.accounts-adv,
+.nr-side-widget-opener-container {
+	display: none !important;
+}
+
+.cardHeader h3 {
+    font-family: "SF Pro Display" !important;
+	font-weight: 700;
+}
+
+.cardContent * {
+    font-family: "SF Pro Text" !important;
+}
+
+/* User controls */
+
+.UserControlsView * {
+    font-family: "SF Pro Display" !important;
+}
+
+/* Mint Navigation */
+
+.UserControlsView .headerlinks {
+	background: #222 !important;
+}
+
+#mintNavigation * {
+    font-family: "SF Pro Display" !important;
+}
+
+#mintNavigation {
+	background-color: #ececec !important;
+}
+
+.navbar-nav li {
+    padding: 20px 0;
+}
+
+.navbar-nav a {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 16px 0;
+    transition: color .2s;
+}
+
+.navbar-nav a.selected {
+    padding-bottom: 12px;
+}
+
+.navbar-nav a.selected {
+    font-weight: 600;
+}
+
+/* Overview */
+
+.CardView {
+	border-radius: 12px;
+}
+
+/* TransactionAccountsView */
+
+.TransactionAccountsView * {
+    font-family: "SF Pro Display" !important;
+}
+
+.TransactionAccountsView li li {
+    padding: 8px 15px !important;
+}
+
+.TransactionAccountsView li#localnav-acounts li a {
+    font-family: "SF Pro Display" !important;
+    font-weight: 400 !important;
+    font-size: 12px;
+}
+
+.TransactionAccountsView li#localnav-acounts li:not(.selected) a {
+    color: #999;
+}
+
+.TransactionAccountsView li#localnav-acounts li small {
+    font-family: "SF Pro Text" !important;
+    font-weight: 500 !important;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.TransactionAccountsView li#localnav-acounts li:not(.selected) small {
+    color: #333;
+}
+
+.TransactionAccountsView li li:not(.selected):hover a {
+	color: #027c7b;
+}
+
+.TransactionAccountsView li li:not(.selected):hover small {
+    font-family: "SF Pro Text" !important;
+	color: #027c7b;
+}
+
+.TransactionAccountsView li li.selected {
+	background-color: #05a5a4;
+}
+
+.TransactionAccountsView header {
+	font-weight: 600;
+}
+
+/* TransactionPageView */
+.TransactionPageView .account-header {
+    font-family: "SF Pro Text" !important;
+}
+
+.TransactionPageView * {
+    font-family: "SF Pro Text" !important;
+}
+
+.TransactionPageView .money {
+    font-family: "SF Mono" !important;
+    color: #ec3841;
+}
+
+/* AccountsView */
+
+.AccountsView h3 {
+    font-family: "SF Pro Display" !important;
+    font-weight: 600;
+}
+
+.AccountsView * {
+    font-family: "SF Pro Text" !important;
+}
+
+.AccountsView .balance {
+    font-family: "SF Mono" !important;
+}
+
+.AccountsView .account-header-wrapper .balance {
+    color: #0a9659!important;
+}
+
+.AccountsView .account-header-wrapper .balance.negativeBalance {
+    color: #ec3841!important;
+}
+
+.accounts-list li.accounts-data-li h4 * {
+	font-size: 15px !important;
+}
+
+.accounts-list li.accounts-data-li h6 * {
+	font-size: 13px !important;
+}
+
+.AccountsView .totals * {
+	font-size: 15px !important;
+}
+
+/* CreditReportPageView */
+.CreditReportPageView .credit-score-widget .wfont-medium,
+.CreditReportPageView .credit-score-widget .wfont-light {
+    font-family: "SF Pro Display" !important;
+}
+
+.CreditReportPageView .credit-score-widget p {
+    font-family: "SF Pro Text" !important;
+}
+
+/* transactions */
+
+#account-summary .money * {
+    font-family: "SF Mono" !important;
+}
+
+#transaction-list tr * {
+	font-style: normal;
+}
+
+tr.alt {
+	background: #fcfcfc !important;
+}
+
+#txnEdit td.money {
+	padding-right: 4px !important;
+}
+
+#txnEdit td.date,
+#txnEdit td.date *,
+#txnEdit td.money,
+#txnEdit td.money *,
+#transaction-list td.date,
+#transaction-list td.date *,
+#transaction-list td.money,
+#transaction-list td.money * {
+    font-family: "SF Mono" !important;
+}
+
+#txnEdit *,
+#transaction-list * {
+    font-family: "SF Pro Text" !important;
+}
+
+#transaction-list thead tr * {
+	font-weight: 600 !important;
+    font-size: 14px !important;
+}
+
+#transaction-list thead tr#transaction-list-header th {
+	background-color: #333 !important;
+    color: white !important;
+    background-image: none;
+}
+
+tr#transaction-list-pending-ctrl th {
+	background-color: #EEE !important;
+}
+
+/* FactorCard */
+
+.FactorCard {
+    font-family: "SF Pro Text" !important;
+	font-weight: 400 !important;
+}
+
+.FactorCard .FactorHeader * {
+    font-family: "SF Pro Display" !important;
+	font-weight: 600 !important;
+}
+
+
+.FactorCard .FactorHeader .attribute-data * {
+	font-weight: 700 !important;
+}
+
+.SettingsNavView * {
+    font-family: "SF Pro Display" !important;
+}
+
+.mainSettingsContent * {
+    font-family: "SF Pro Display" !important;
+}
+
+#widgetContainer * {
+    font-family: "SF Pro Display" !important;
+}
