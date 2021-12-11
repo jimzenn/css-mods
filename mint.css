@@ -5,6 +5,8 @@
  * Distributed under terms of the MIT license.
  */
 
+@document domain("mint.intuit.com") {
+
 body {
 	color: black;
 }
@@ -253,4 +255,6 @@ tr#transaction-list-pending-ctrl th {
 
 #widgetContainer * {
     font-family: -apple-system, "SF Pro Display", sans-serif !important;
+}
+
 }
